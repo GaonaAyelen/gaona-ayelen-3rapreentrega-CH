@@ -1,0 +1,88 @@
+@mixin center {
+  text-align: center;
+}
+
+/* iframe*/
+
+iframe {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  width: 450px;
+}
+
+/* INDEX */
+
+.buttonPromo {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 5px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: row;
+  @include center;
+}
+
+h2 {
+  @include center;
+}
+
+
+
+body {
+    background-color: rgb(238, 199, 247);
+  }
+  
+  main {
+    @include center;
+    padding: 20px;
+    margin: 10px 30px;
+    border: 5px;
+  }
+  
+  .p {
+    @include center;
+    padding: 10px;
+    margin: 5px 10px;
+  }
+  
+  h2 {
+    @include center;
+  }
+
+
+/* NAVEGACION */
+
+.logoOtk {
+    width: 130px;
+    box-shadow: 5px 5px 12px $color-negro;
+  }
+  
+  .navegacion {
+    background-color: $color-lila;
+    border-top: $color-violeta;
+  }
+  
+  .menuOtk a {
+    text-transform: uppercase;
+  
+    &:hover {
+      background-color: $color-violet;
+    }
+  }
+
+  /* BOTONES CARD */
+
+.btnButton {
+  background-color: $color-lila;
+  color: $color-negro;
+
+  &:hover {
+    background-color: $color-violet;
+    color: $color-negro;
+  }
+}
+  

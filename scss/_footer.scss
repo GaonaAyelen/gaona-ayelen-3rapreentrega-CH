@@ -1,0 +1,19 @@
+footer {
+    background-color: $color-footer;
+    display: flex;
+    justify-content: center;
+  }
+  
+  p {
+    display: flex;
+    text-decoration: solid;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .imagen {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 8px 12px $color-negro;
+  }
