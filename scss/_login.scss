@@ -4,9 +4,6 @@
     margin: 30px;
   }
   
-  .imagenCard {
-    box-shadow: 5px 8px 12px $color-negro;
-  }
   
   /* BOTON LOGIN */
   
@@ -17,3 +14,11 @@
     flex-direction: column;
   }
   
+  .imgRegister {
+    margin: 10px;
+    width: 650px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+
+  }

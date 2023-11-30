@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1090px) {
 
     footer {
         margin: auto;
@@ -21,14 +21,30 @@
 
     }
     .cardCarrito {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;    
+    
         align-items: center;  
         margin-top: 15px;
         margin: 15px;
         padding: 10px;
 
     }
+
+    .imgRegister {
+        margin: auto;
+        padding: 15px;
+        
+    }
+
+   /* .contenedorProducto {
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+
+    }
+*/
 
 }
 
@@ -69,6 +85,12 @@
         margin: auto;
     }
 
+    .imgRegister {
+        margin: auto;
+        padding: 15px;
+        
+    }
+
     .botonLink{
         align-items: center;
         display: flex;
@@ -91,6 +113,11 @@
 
     }
 
+    .imgRegister {
+        margin: auto;
+        
+    }
+   
     
 
 }

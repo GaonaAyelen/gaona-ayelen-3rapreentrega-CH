@@ -5,25 +5,30 @@
 
 /*PRODUCTOS*/
 .imagenProducto {
-  margin: 50px;
+  margin: 30px;
+  padding: 15px;
   border: 3px white ridge;
-  width: 300px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
   box-shadow: 4px 8px 12px rgb(11, 7, 12);
+  justify-content: center;
 }
 
 .contenedorProducto {
+  display: flex;
   display: inline-block;
   border: 5px;
+  justify-content: center;
+}
+
+.h2 {
+  background-color: violet;
+  color: black;
 }
 
 /* LOGIN  */
 .imgLogin {
   margin: 30px;
-}
-
-.imagenCard {
-  box-shadow: 5px 8px 12px rgb(11, 7, 12);
 }
 
 /* BOTON LOGIN */
@@ -32,6 +37,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.imgRegister {
+  margin: 10px;
+  width: 650px;
+  display: flex;
+  justify-items: center;
+  text-align: center;
 }
 
 /* iframe*/
@@ -109,8 +122,15 @@ h2 {
   color: rgb(11, 7, 12);
 }
 
-/* CARRITO */
-.cardCarrito {
+.imagenCard {
+  box-shadow: 5px 8px 12px rgb(11, 7, 12);
+  justify-content: center;
+  justify-content: center;
+  box-shadow: 5px 5px 12px rgb(11, 7, 12);
+  margin: 20px;
+}
+
+.card {
   display: flex;
   border-radius: 1px rgb(11, 7, 12);
   margin: 15px;
@@ -118,15 +138,24 @@ h2 {
   justify-content: center;
   box-shadow: 5px 5px 12px rgb(11, 7, 12);
   margin: 20px;
+  justify-content: center;
 }
 
-.card2 {
-  margin: 10px;
-  padding: 5px;
+.imgCardIn {
+  width: 30px;
+  height: 15px;
 }
 
-.card-body {
-  border-radius: 1px, black;
+/* CARRITO */
+.card {
+  display: flex;
+  border-radius: 1px rgb(11, 7, 12);
+  margin: 15px;
+  padding: 10px;
+  justify-content: center;
+  box-shadow: 5px 5px 12px rgb(11, 7, 12);
+  margin: 20px;
+  justify-content: center;
 }
 
 footer {
@@ -161,19 +190,31 @@ p {
     margin: 20px;
   }
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1090px) {
   footer {
     margin: auto;
     width: 100%;
   }
   .cardCarrito {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     margin-top: 15px;
     margin: 15px;
     padding: 10px;
   }
+  .imgRegister {
+    margin: auto;
+    padding: 15px;
+  }
+  /* .contenedorProducto {
+
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          display: grid;
+
+      }
+  */
 }
 @media screen and (max-width: 600px) {
   .cardCarrito {
@@ -203,6 +244,10 @@ p {
   .imgLogin {
     margin: auto;
   }
+  .imgRegister {
+    margin: auto;
+    padding: 15px;
+  }
   .botonLink {
     align-items: center;
     display: flex;
@@ -217,6 +262,9 @@ p {
     justify-content: center;
     flex-direction: column;
     width: 200px;
+  }
+  .imgRegister {
+    margin: auto;
   }
 }
 
