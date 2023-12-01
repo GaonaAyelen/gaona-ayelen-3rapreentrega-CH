@@ -5,10 +5,9 @@
 
 /*PRODUCTOS*/
 .imagenProducto {
-  margin: 30px;
+  margin: 15px;
   padding: 15px;
   border: 3px white ridge;
-  width: 330px;
   height: 330px;
   box-shadow: 4px 8px 12px rgb(11, 7, 12);
   justify-content: center;
@@ -205,16 +204,6 @@ p {
     margin: auto;
     padding: 15px;
   }
-  /* .contenedorProducto {
-
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          text-align: center;
-          display: grid;
-
-      }
-  */
 }
 @media screen and (max-width: 600px) {
   .cardCarrito {
