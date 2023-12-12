@@ -79,6 +79,7 @@ body {
 .btnButton {
   background-color: $color-lila;
   color: $color-negro;
+  margin: 10px;
 
   &:hover {
     background-color: $color-violet;
@@ -86,12 +87,6 @@ body {
   }
 }
   
-.imagenCard {
-  box-shadow: 5px 8px 12px $color-negro;
-  justify-content: center;
-  justify-content: center;
-  margin: 20px;
-  width: 400px;
-}
+
 
 
