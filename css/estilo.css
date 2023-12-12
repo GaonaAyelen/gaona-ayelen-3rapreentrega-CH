@@ -5,8 +5,8 @@
 
 /*PRODUCTOS*/
 .imagenProducto {
-  margin: 15px;
-  padding: 15px;
+  padding: 5px;
+  margin: 15px 0px 15px 0px;
   border: 3px white ridge;
   height: 330px;
   box-shadow: 4px 8px 12px rgb(11, 7, 12);
@@ -23,6 +23,17 @@
 .h2 {
   background-color: violet;
   color: black;
+}
+
+.imagenCentro {
+  padding: 5px;
+  margin: 15px 30px 15px 30px;
+  border: 3px white ridge;
+  height: 300px;
+  box-shadow: 4px 8px 12px rgb(11, 7, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* LOGIN  */
@@ -44,6 +55,7 @@
   display: flex;
   justify-items: center;
   text-align: center;
+  margin-left: 1px;
 }
 
 /* iframe*/
@@ -125,24 +137,8 @@ h2 {
   box-shadow: 5px 8px 12px rgb(11, 7, 12);
   justify-content: center;
   justify-content: center;
-  box-shadow: 5px 5px 12px rgb(11, 7, 12);
   margin: 20px;
-}
-
-.card {
-  display: flex;
-  border-radius: 1px rgb(11, 7, 12);
-  margin: 15px;
-  padding: 10px;
-  justify-content: center;
-  box-shadow: 5px 5px 12px rgb(11, 7, 12);
-  margin: 20px;
-  justify-content: center;
-}
-
-.imgCardIn {
-  width: 30px;
-  height: 15px;
+  width: 400px;
 }
 
 /* CARRITO */
@@ -185,11 +181,13 @@ p {
   iframe {
     width: 70%;
   }
-  .card2 {
-    margin: 20px;
+  main {
+    align-items: center;
+    padding: 3px;
+    margin: 10px;
   }
 }
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 600px) and (max-width: 1090px) {
   footer {
     margin: auto;
     width: 100%;
@@ -204,8 +202,15 @@ p {
     margin: auto;
     padding: 15px;
   }
+  .contenedorProducto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: grid;
+  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (max-width: 600px) {
   .cardCarrito {
     display: flex;
     align-items: center;
@@ -220,7 +225,7 @@ p {
     text-align: center;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (max-width: 600px) {
   .contenedorProducto {
     align-items: center;
     text-align: center;
@@ -229,7 +234,7 @@ p {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (max-width: 600px) {
   .imgLogin {
     margin: auto;
   }
@@ -243,8 +248,24 @@ p {
     justify-content: center;
     flex-direction: column;
   }
+  .imagenCard {
+    box-shadow: 5px 8px 12px rgb(11, 7, 12);
+    justify-content: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .imagenCentro {
+    padding: 5px;
+    margin: 15px 30px 15px 30px;
+    border: 3px white ridge;
+    height: 320px;
+    box-shadow: 4px 8px 12px rgb(11, 7, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 600px) and (min-width: 750px) {
   .imagenCard {
     align-items: center;
     display: flex;
